@@ -1,2 +1,2 @@
 print("Hello world")
-input("Add some number:")
+input("Add number:")
