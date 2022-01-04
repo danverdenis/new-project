@@ -28,17 +28,30 @@
 #     print(cell, end=" ")
 
 # 4 Task
-video_cards_count = int(input("Количество видеокарт: "))
-video_cards = []
-new_list = []
-highest_video_cards = 0
-for i in range(video_cards_count):
-    video = int(input(f"{i + 1} Видеокарта: "))
-    video_cards.append(video)
-    if highest_video_cards < video:
-        highest_video_cards = video
-for video_card in video_cards:
-    if video_card != highest_video_cards:
-        new_list.append(video_card)
-print(f"Старый список видеокарт: {video_cards}")
-print(f"Новый список видеокарт: {new_list}")
+# video_cards_count = int(input("Количество видеокарт: "))
+# video_cards = []
+# new_list = []
+# highest_video_cards = 0
+# for i in range(video_cards_count):
+#     video = int(input(f"{i + 1} Видеокарта: "))
+#     video_cards.append(video)
+#     if highest_video_cards < video:
+#         highest_video_cards = video
+# for video_card in video_cards:
+#     if video_card != highest_video_cards:
+#         new_list.append(video_card)
+# print(f"Старый список видеокарт: {video_cards}")
+# print(f"Новый список видеокарт: {new_list}")
+
+#5 Task
+films = ["Крепкий орешек", "Назад в будущее", "Таксист", "Леон",
+         "Богемская рапсодия", "Город грехов", "Мементо", "Отступники", "Деревня"]
+likes_films = []
+
+film_counter = int(input("Сколько фильмов хотите добавить? "))
+for _ in range(film_counter):
+    like_film = input("Введите название фильма: ")
+    for film in films:
+        if film == like_film:
+            likes_films.append(like_film)
+
