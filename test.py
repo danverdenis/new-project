@@ -44,14 +44,16 @@
 # print(f"Новый список видеокарт: {new_list}")
 
 #5 Task
-films = ["Крепкий орешек", "Назад в будущее", "Таксист", "Леон",
-         "Богемская рапсодия", "Город грехов", "Мементо", "Отступники", "Деревня"]
-likes_films = []
-
-film_counter = int(input("Сколько фильмов хотите добавить? "))
-for _ in range(film_counter):
-    like_film = input("Введите название фильма: ")
-    for film in films:
-        if film == like_film:
-            likes_films.append(like_film)
+# films = ["Крепкий орешек", "Назад в будущее", "Таксист", "Леон",
+#          "Богемская рапсодия", "Город грехов", "Мементо", "Отступники", "Деревня"]
+# likes_films = []
+#
+# film_counter = int(input("Сколько фильмов хотите добавить? "))
+# for _ in range(film_counter):
+#     like_film = input("Введите название фильма: ")
+#     if like_film in films:
+#         likes_films.append(like_film)
+#     else:
+#             print(f"Ошибка: фильма {like_film} у нас нет :(")
+# print(f"Ваш список любимых фильмов: ", ", ".join(likes_films))
 
